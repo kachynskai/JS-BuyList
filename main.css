@@ -7,6 +7,7 @@ body{
 	display: flex;
 	gap: 25px;
 	justify-content: center;
+	min-width: 350px;
 }
 .first{
 	width: 65%;
@@ -262,13 +263,10 @@ body{
 	}
 	.badge-caption{
 		position: absolute;
+        visibility: hidden;
 	}
 	.creator-name, .creator{
 		color:black;
-	}
-	.badge .buy-list{
-		position:absolute;
-		visibility: hidden;
 	}
 }
 
